@@ -7,6 +7,7 @@
 html{
     scroll-behavior: smooth;
 }
+
 body{
     background: #080808;
     color: #fff;
@@ -182,12 +183,16 @@ nav ul li a:hover::after{
 }
 
 .services-list div i{
-    font-size: 50px;
+    font-size: 100px;
     margin-bottom: 30px;
 }
 
+.services-list div p{
+    font-size: 40px;
+}
+
 .services-list div h2{
-    font-size: 30px;
+    font-size: 60px;
     font-weight: 500;
     margin-bottom: 15px;
 }
@@ -195,7 +200,7 @@ nav ul li a:hover::after{
 .services-list div a{
     text-decoration: none;
     color: #fff;
-    font-size: 12px;
+    font-size: 30px;
     margin-top: 20px;
     display: inline-block;
 }
@@ -380,14 +385,14 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/small-b&w.png);
+        background-image: url(images/small-b&w2.png);
     }
     .header-text{
         margin-top: 100%;
-        font-size: 16px;
+        font-size: 25px;
     }
     .header-text h1{
-        font-size: 30px
+        font-size: 50px
     }
     .logo{
         width: 140px;
@@ -470,6 +475,21 @@ nav .fas{
         display: inline-block;
         background: #ff3131;
         font-size: 14px;
+    }
+    .services-list div h2{
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+    .services-list div i{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    .services-list div p{
+        font-size: 12px;
+    }
+    .services-list div a{
+        font-size: 12px;
     }
 }
 
