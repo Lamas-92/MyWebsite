@@ -256,8 +256,13 @@ nav ul li a:hover::after{
 }
 
 .layer h3{
+    font-size: 60px;
     font-weight: 500;
     margin-bottom: 20px;
+}
+
+.layer p{
+    font-size: 40px;
 }
 
 .layer a{
@@ -491,6 +496,13 @@ nav .fas{
     .services-list div a{
         font-size: 12px;
     }
+    .layer h3{
+    font-size: 12px;
+}
+    .layer p{
+    font-size: 10px;
+}
+
 }
 
 #msg{
