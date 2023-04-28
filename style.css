@@ -256,13 +256,13 @@ nav ul li a:hover::after{
 }
 
 .layer h3{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
 .layer p{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .layer a{
