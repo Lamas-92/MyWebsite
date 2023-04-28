@@ -87,23 +87,23 @@
         <div class="container">
             <h1 class="sub-title">Certifications</h1>
             <div class="services-list">
-                 <div>
-                    <i class="fa-solid fa-crop"></i>
-                    <h2>SQL Crash Course</h2>
-                    <p>NOVA IMS 09-2021</p>
-                    <a href="https://www.novaims.unl.pt/en/education/programs/postgraduate-programs-and-master-degree-programs/master-degree-in-information-management-with-a-specialization-in-information-systems-management/">Learn more</a>
-                </div>
                 <div>
                     <i class="fa-solid fa-database"></i>
                     <h2>The Complete SQL Bootcamp 2021</h2>
                     <p>Udemy 07-2021</p>
-                    <a href="https://www.udemy.com/certificate/UC-54b97ee4-ee21-491d-9922-e2f8c40d81e9">Learn more</a>
+                    <a href="https://www.udemy.com/certificate/UC-54b97ee4-ee21-491d-9922-e2f8c40d81e9" target="_blank">Learn more</a>
+                </div>
+                 <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>SQL Crash Course</h2>
+                    <p>NOVA IMS 09-2021</p>
+                    <a href="https://www.novaims.unl.pt/en/education/programs/postgraduate-programs-and-master-degree-programs/master-degree-in-information-management-with-a-specialization-in-information-systems-management/" target="_blank">Learn more</a>
                 </div>
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Sales Program</h2>
                     <p>NOVA SBE 03-2021</p>
-                    <a href="https://ibb.co/s2SSKwW">Learn more</a>
+                    <a href="https://ibb.co/s2SSKwW" target="_blank">Learn more</a>
                 </div>
             </div>
         </div>
@@ -123,7 +123,7 @@
                         hangman game where players have to guess a secret word by guessing
                         individual letters.<br><br>Players can choose to play either single-player mode or
                         multiplayer mode.</p>
-                        <a href="https://github.com/joaocpalma/hangman_game"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/joaocpalma/hangman_game" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
@@ -134,7 +134,7 @@
                         game world is vibrant and colorful, with detailed backgrounds and character
                         made by our team designers.<br><br>The game's soundtrack is also a highlight, with
                         upbeat and catchy tunes that enhance the gameplay experience.</p>
-                        <a href="https://catarinasarmento.itch.io/sakura"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://catarinasarmento.itch.io/sakura" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
@@ -142,11 +142,11 @@
                 <div class="layer">
                     <h3>Rick and Morty API (HTML, CSS and JS)</h3>
                     <p>Small Web/app builded with Rick and Morty API.</p>
-                        <a href="https://github.com/joaocpalma/rick_morty_API_webApp"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/joaocpalma/rick_morty_API_webApp" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
         </div>
-        <a href="https://github.com/joaocpalma" class="btn">See more</a>
+        <a href="https://github.com/joaocpalma" class="btn" target="_blank">See more</a>
     </div>
 </div>
 
@@ -165,7 +165,7 @@
                 <a href="images/CV-JoaoPalma.pdf" download class="btn btn2">Download CV</a>
             </div>
             <div class="contact-right">
-                <form name="submit-to-google-sheet">
+                <form name="submit-to-google-sheet" action="https://formsubmit.co/joao.condepalma@gmail.com" method="POST">
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="Email" placeholder="Your Email" required>
                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
@@ -207,24 +207,5 @@
                 sidemenu.style.right = "-200px";
             }
         </script>
-
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbx-nbVC6sXidW_1cJv_7yVnCsDT_Y8_c6GykTGb8tBRKzMT9IHJP4_n8BNrf4mUVl3Dew/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
-
-        form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML = "Message sent successfully"
-                setTimeout(function(){
-                    msg.innerHTML= ""
-                }, 5000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
-        })
-    </script>
 </body>
 </html>
