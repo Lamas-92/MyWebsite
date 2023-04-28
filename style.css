@@ -388,7 +388,7 @@ nav .fas{
     display: none;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 2000px){
     #header{
         background-image: url(images/small-b&w2.png);
     }
@@ -435,6 +435,10 @@ nav .fas{
     }
     .about-col-1{
         margin-bottom: 30px;
+    }
+    .about-col-1 img{
+        width: 25%;
+        border-radius: 15px;
     }
     .about-col-2{
         font-size: 14px;
@@ -501,6 +505,15 @@ nav .fas{
 }
     .layer p{
     font-size: 10px;
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 80px;
+}
+
+.header-text h1{
+    font-size: 100px;
+    margin-top: 20px;
 }
 
 }
